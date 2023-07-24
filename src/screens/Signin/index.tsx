@@ -7,9 +7,9 @@ import Button from '../../components/Button';
 
 export default function SignIn() {
   return (
-    <View>
-      <Image source={mainImg} />
-      <View style={styles.container}>
+    <View style={styles.container}>
+      <Image source={mainImg} style={styles.image} />
+      <View style={styles.containerSecondary}>
         <Text style={styles.welcomeText}>Welcome to Education App</Text>
         <Text style={styles.login}>Login</Text>
         <Button title='Sign In with Google' icon={'google'} />

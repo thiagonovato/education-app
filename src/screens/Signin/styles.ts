@@ -1,9 +1,16 @@
-import { StyleSheet } from 'react-native'
+import { Dimensions, StyleSheet } from 'react-native'
 import color from '../../shared/colors'
+
+
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 40,
-    marginTop: -20,
+  },
+  image: {
+    width: Dimensions.get('window').width
+  },
+  containerSecondary: {
+    paddingTop: 50,
+    marginTop: -25,
     backgroundColor: color.white,
     borderTopLeftRadius: 30,
     borderTopRightRadius: 30,
